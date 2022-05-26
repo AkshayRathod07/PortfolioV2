@@ -2,14 +2,24 @@ import { BrowserRouter as Router ,Switch, Route, Link } from "react-router-dom";
 import './App.css';
 import HomePage from "./Pages/HomePage_Folder/HomePage";
 import {ReactNavbar} from "overlay-navbar"
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      easing: "ease-out-cubic",
+      once: true,
+      offset: 50,
+    });
+  }, []);
   return (
+
     
     <Router>
     <ReactNavbar burgerColor="white" logo={'Akshay.'}
-  //  navColor1=""
-  // link1Color="white"
+ 
   link1Color="rgba(255,255,255,0.8)"
     
     link1Text="Home"
@@ -22,16 +32,9 @@ function App() {
     link4Url="/contact"
     link1Size="2vmax"
     link1Family="cursive"
-
     link1Margin="1.5vmax"
     link2Margin="0vmax"
     link4Margin="1vmax"
-    // searchIconMargin="1vmax"
-    // profileIconMargin="1vmax"
-    // searchIconUrl="https://www.instagram.com/akshay_rathod_14/"
-    // searchIconMargin="1.5vmax"
-    // link2Margin="0vmax"
-    // link4Margin="1vmax"
     searchIcon={false}
     cartIcon={false}
     profileIcon={false}

@@ -14,6 +14,10 @@ body {
   /* font-family: "Poppins", sans-serif; */
 }
 
+.menuBurger {
+  height: 4.1vmax !important ;
+}
+
 /* About Me */
 .skillList li {
   position: relative;
@@ -219,6 +223,39 @@ body {
 }
 /* project gallery */
 
+/* social media */
+.social-media {
+  /* position: fixed;
+  top: 66%;
+  left: 3px;
+  z-index: 100; */
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: 25px;
+  right: auto;
+  z-index: 10;
+}
+.social-media svg {
+  margin: 24px 11px;
+  font-size: 23px;
+}
+.social-media .line {
+  height: 10px;
+  width: 3px;
+  color: red;
+}
+.social-media .lists:after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: #fff;
+}
+
+/* social media */
+
 /* media query */
 
 @media (max-width: 425px) {
@@ -229,6 +266,11 @@ body {
   }
   .AboutImg {
     margin-top: 200px;
+  }
+}
+@media (max-width: 768px) {
+  .social-media {
+    display: none;
   }
 }
 /* media query */

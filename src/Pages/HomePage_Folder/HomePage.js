@@ -1,16 +1,25 @@
-import React from 'react'
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css"
 import Aboutme from '../../Components/Aboutme'
 import Footer from '../../Components/Footer'
 import Projects from '../../Components/Projects'
+import Loader from "../../Components/Loader";
+import SocialMedia from "../../Components/SocialMedia";
 
 const HomePage = () => {
+    // useEffect(() => {
+    //     Aos.init({
+    //       duration:2000
+    //     })
+    //   }, [])
     return (
         <section className="bg-SecondColor">
-            <div className="container  min-h-screen ">
-               <div className="font-Poppins pt-80 ">
+            <div className="container pl-3 md:pl-20 lg:pl-32 min-h-screen ">
+               <div className="font-Poppins pt-52 ">
                <h4 >HI, my name is</h4>
-                <h1 className="text-5xl font-bold my-6  flex-1 " >Akshay Rathod.</h1>
-                <h1 className="text-6xl font-bold mb-5" >I build things for the web</h1>
+                <h1 className="md:text-5xl text-3xl font-bold my-6  flex-1 " >Akshay Rathod.</h1>
+                <h1 className="md:text-6xl text-4xl font-bold mb-5"  >I build things for the web</h1>
                 <p className="w-full md:w-1/2" >I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences.Currently, I'm focused on building accessible, human-centered products at Upstatement.</p>
 
                 <div className="pt-10">
@@ -18,6 +27,10 @@ const HomePage = () => {
                 </div>
                </div>
             </div>
+            {/* <Loader/> */}
+
+            <SocialMedia/>
+
             <Aboutme/>
 
             <Projects/>
