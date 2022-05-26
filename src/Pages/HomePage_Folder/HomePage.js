@@ -16,7 +16,7 @@ const HomePage = () => {
     return (
         <section className="bg-SecondColor">
             <div className="container pl-3 md:pl-20 lg:pl-32 min-h-screen ">
-               <div className="font-Poppins pt-52 ">
+               <div className="font-Poppins pt-28 md:pt-52 ">
                <h4 >HI, my name is</h4>
                 <h1 className="md:text-5xl text-3xl font-bold my-6  flex-1 " >Akshay Rathod.</h1>
                 <h1 className="md:text-6xl text-4xl font-bold mb-5"  >I build things for the web</h1>

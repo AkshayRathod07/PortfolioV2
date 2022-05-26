@@ -55,7 +55,7 @@ const Projects = () => {
              ProjectArray.map((item,i)=>{
                  return(
                 <div key={i} className="Card w-full lg:w-1/2 px-2 pt-10" >
-                    <img src={item.image} alt="img" />
+                    <img src={item.image} alt="img" data-aos="zoom-in-up" />
                     <div className="flex justify-between px-1 sm:px-20  py-14 lg:px-14 xl:px-24 2xl:px-32">
                         <div className="">
                         <h1 className="text-2xl font-medium pb-3 " >Kat Theo</h1>

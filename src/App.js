@@ -18,7 +18,7 @@ function App() {
 
     
     <Router>
-    <ReactNavbar burgerColor="white" logo={'Akshay.'}
+    <ReactNavbar burgerColor="white" logo={'/DevLogo1.png'}
  
   link1Color="rgba(255,255,255,0.8)"
     
