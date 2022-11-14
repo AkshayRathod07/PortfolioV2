@@ -25,7 +25,7 @@ const Aboutme = () => {
           <div className="w-full lg:w-1/2 items-center " data-aos="fade-right"  >
 
             <p className="text-lg text-gray-400 " > Hello! My name is Akshay and I enjoy creating things that live on the
-              internet. I Have Completed My College From Pune(India) In BCA (Bachelor of Computer Application) And Currently Working In BrandWick </p>
+              internet. I Have Completed My College From Pune(India) In BCA (Bachelor of Computer Application) And Currently Working In BrandWick as Frontend React & React-Native developer  </p>
 
             <p className="text-lg text-gray-400 py-6 "  >I Am Hardworking ,Creative And Enthusiastic Toward My Work.. I Will Be Glad To Work With You And Showcase My Skills . You Can   <a href=" mailto:akshaycoder07@gmail.com">Contact Me.</a></p>
             <p className="text-lg text-gray-400 pb-6 "  > </p>
