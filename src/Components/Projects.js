@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
-
-import { BsGithub } from 'react-icons/bs';
 import Aos from "aos";
 import "aos/dist/aos.css"
+import { FiExternalLink } from "react-icons/fi";
 
 const Projects = () => {
     // useEffect(() => {
@@ -61,9 +60,10 @@ const Projects = () => {
                                         <div className="">
                                             <h1 className="text-2xl font-medium pb-3 " >{item?.name}</h1>
                                             <p className="font-medium" >{item?.desc}</p>
+
                                         </div>
                                         <div className="ProjectCta  ">
-                                            <a href="" target="_blank" rel="noopener noreferrer" className=" text-2xl mb-3 " > <BsGithub /> </a>
+                                            <a href="" target="_blank" rel="noopener noreferrer" className=" text-2xl mb-3 " > <FiExternalLink /> </a>
                                             <a href={item.link} target="_blank" rel="noopener noreferrer" className="font-medium  cool-link  " >Visit Website</a>
 
                                         </div>

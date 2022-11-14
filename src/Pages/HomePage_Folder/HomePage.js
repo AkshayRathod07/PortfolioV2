@@ -19,8 +19,8 @@ const HomePage = () => {
                 <div className="font-Poppins pt-28 md:pt-52 ">
                     <h4 >HI, my name is</h4>
                     <h1 className="md:text-5xl text-3xl font-bold my-6  flex-1 " >Akshay Rathod.</h1>
-                    <h1 className="md:text-6xl text-4xl font-bold mb-5"  > I build things for the web test</h1>
-                    <p className="w-full md:w-1/2" >I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences.Currently, I'm focused on building accessible, human-centered products at Upstatement.</p>
+                    <h1 className="md:text-6xl text-4xl font-bold mb-5"  > I build things for the web </h1>
+                    <p className="w-full md:w-2/3" >I'm a software Developer specializing in building  Website and App (React-Native) .</p>
 
                     <div className="pt-10">
                         <button className="btn" ><a href=" mailto:akshaycoder07@gmail.com">Get In Touch</a></button>
