@@ -1,6 +1,10 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"
+import { SiJavascript, SiNextdotjs } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { DiMongodb, DiNodejsSmall } from "react-icons/di";
+import { RiReactjsLine } from "react-icons/ri";
 
 
 const Aboutme = () => {
@@ -23,30 +27,25 @@ const Aboutme = () => {
             <p className="text-lg text-gray-400 " > Hello! My name is Akshay and I enjoy creating things that live on the
               internet. I Have Completed My College From Pune(India) In BCA (Bachelor of Computer Application) And Currently Working In BrandWick </p>
 
-            <p className="text-lg text-gray-400 py-6 "  > Fast-forward to today, and I've had the privilege of working at an
-              advertising agency, a start-up, a huge corporation, and a student-led
-              design studio. My main focus these days is building accessible,
-              inclusive products and digital experiences at Upstatement for a
-              variety of clients.</p>
-            <p className="text-lg text-gray-400 pb-6 "  > I also recently launched a course that covers
-              everything you need to build a web app with the Spotify API using Node
-              & React. Here are a few technologies I've been working with recently:</p>
+            <p className="text-lg text-gray-400 py-6 "  >I Am Hardworking ,Creative And Enthusiastic Toward My Work.. I Will Be Glad To Work With You And Showcase My Skills . You Can   <a href=" mailto:akshaycoder07@gmail.com">Contact Me.</a></p>
+            <p className="text-lg text-gray-400 pb-6 "  > </p>
 
             <h2>Here are a few technologies I've been working with recently:</h2>
 
             <div className="flex justify-between w-3/4 lg:w-3/5 "  >
               <div className="pt-5">
                 <ul className="skillList" >
-                  <li>JavaScript (ES6+)</li>
-                  <li>Node.js</li>
-                  <li>MongoDB</li>
+                  <li className="flex items-center" > <SiJavascript /> <span className="ml-2" >JavaScript (ES6+)</span></li>
+                  <li className="flex items-center" > <DiNodejsSmall /> <span className="ml-2" >Node.js</span></li>
+                  <li className="flex items-center" > <DiMongodb /> <span className="ml-2" >MongoDB</span></li>
                 </ul>
               </div>
               <div className="pt-5">
                 <ul className="skillList" >
-                  <li>React</li>
-                  <li>Next.js</li>
-                  <li>React-native (mobile) </li>
+                  <li className="flex items-center" > <FaReact /> <span className="ml-2" >React</span></li>
+                  <li className="flex items-center" > <SiNextdotjs /> <span className="ml-2" >Next.js</span></li>
+                  <li className="flex items-center" > <RiReactjsLine /> <span className="ml-2" > React-native (mobile) </span></li>
+
                 </ul>
               </div>
             </div>
