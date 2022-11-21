@@ -12,6 +12,8 @@ body {
   box-sizing: border-box;
   /* font-family: "Sora", sans-serif; */
   /* font-family: "Poppins", sans-serif; */
+
+  overflow-x: hidden;
 }
 
 .menuBurger {
